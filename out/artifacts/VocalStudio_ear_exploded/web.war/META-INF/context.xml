@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context crossContext="true" reloadable="true">
+    <Resource
+            name="jdbc/MyDataSource" auth="Container"
+            type="javax.sql.DataSource" maxActive="20"
+            maxIdle="30" maxWait="-1"
+            url="jdbc:mysql://localhost:3306/V_Studio"
+            driverClassName="com.mysql.jdbc.Driver"
+            username="root" password=""
+            />
+</Context>
