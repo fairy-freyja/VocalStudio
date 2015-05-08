@@ -1,0 +1,27 @@
+
+header{
+    text-align: right;
+    background-color: aquamarine;
+    height: 200px;
+    padding: 10px;
+    background-image: url(../pics/logo.png);
+}
+nav{
+    float: left;
+    background-color: cadetblue;
+    width: 100px;
+    height: 70%;
+    padding: 10px;
+}
+
+section{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+}
+footer{
+    background-color: aquamarine;
+    clear: both;
+    padding: 10px;
+}

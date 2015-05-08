@@ -7,10 +7,28 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title></title>
-  </head>
+<link rel="stylesheet" href="resources/css/base.css">
+
+ <title>Tonique</title>
   <body>
+  <header>
+    <p>    </p>
+    <p>    </p>
+    <p>    </p>
+    <H1> телефон: 1234567890 </H1>
+    <H1>адрес: город, дом, улица </H1>
+
+  </header>
+  <nav>
+тут nav
+  </nav>
+  <section>
+тут section
+  </section>
+  <footer>
+это footer
+  </footer>
 pew-pew
+
   </body>
 </html>
