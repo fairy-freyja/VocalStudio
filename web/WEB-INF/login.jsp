@@ -22,7 +22,7 @@
     <form method="post" action="/login">
       <p><input type="text" name="login" value="" placeholder="Username"></p>
       <p><input type="password" name="password" value="" placeholder="Password"></p>
-      <p><input type="email" name="email" value="olo" placeholder="Email"></p>
+      <p><input type="email" name="email" value="email" placeholder="Email"></p>
       <p class="remember_me">
         <label>
           <input type="checkbox" name="remember_me" id="remember_me">
@@ -40,7 +40,7 @@
   <div class="login-help">
     <img src="/logo.gif" alt="logo"/>
     <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
-    <p>Wonna register? <a href="/register">Click here to reset it</a>.</p>
+    <p>Wonna register? <a href="/register">Click here to register</a>.</p>
 
   </div>
 </section>
