@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5f450af-ba32-41cf-98a8-41b10e82ff1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/UserHome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/WEB-INF/classes/com/Fairy/VocalsStudio/servlets/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/WEB-INF/classes/com/Fairy/VocalsStudio/servlets/Login.class" />
-      <change type="MODIFICATION" beforePath="D:\Dropbox (VideoGorillas)\Shared\Fairy\idea projects\VocalStudio\out\production\VocalStudio\com\Fairy\VocalsStudio\servlets\Login.class" afterPath="D:\Dropbox (VideoGorillas)\Shared\Fairy\idea projects\VocalStudio\out\production\VocalStudio\com\Fairy\VocalsStudio\servlets\Login.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/Login.java" afterPath="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/models/UserBean.java" afterPath="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/models/UserBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/META-INF/context.xml" afterPath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/META-INF/context.xml" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/WEB-INF/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/WEB-INF/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/VocalStudio_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="VokalStudio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,24 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1431107467543" expanded="true" signature="1447:1563" placeholder="INSERT into ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.846154">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state vertical-scroll-proportion="-15.769231">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -127,21 +103,31 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="31" column="77" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="regestr.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/regestr.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6642984">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81785715">
-              <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
+            <state vertical-scroll-proportion="-12.862069">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1431347204930" expanded="true" signature="1150:1221" placeholder="SELECT * FRO..auth..." />
+                <marker date="1431364361033" expanded="true" signature="1215:1287" placeholder="SELECT * FRO..auth..." />
               </folding>
             </state>
           </provider>
@@ -174,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/TestDB.java" />
         <option value="$PROJECT_DIR$/web/resources/base.css" />
         <option value="$PROJECT_DIR$/web/resources/css/base.css" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/TestDB.java" />
         <option value="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/models/TestOlolo.java" />
         <option value="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/models/Pew.java" />
@@ -192,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/UserHome.java" />
         <option value="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/models/UserBean.java" />
         <option value="$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/Login.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -859,12 +845,12 @@
       <workItem from="1431101760854" duration="143000" />
       <workItem from="1431101930956" duration="56000" />
       <workItem from="1431102001823" duration="6342000" />
-      <workItem from="1431340333402" duration="6893000" />
+      <workItem from="1431340333402" duration="8578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34631000" />
+    <option name="totallyTimeSpent" value="36316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -876,8 +862,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1050" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1932" height="1050" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -891,7 +877,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -951,7 +937,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/login.jsp</url>
+          <line>21</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1269,14 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/regestr.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/TestDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1299,7 +1286,7 @@
           <caret line="0" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1431107467543" expanded="true" signature="1447:1563" placeholder="INSERT into ..." />
+            <marker date="1431107467543" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
@@ -1311,14 +1298,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.846154">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,14 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Fairy/VocalsStudio/models/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1374,12 +1345,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Fairy/VocalsStudio/servlets/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81785715">
-          <caret line="63" column="70" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
+        <state vertical-scroll-proportion="-12.862069">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1431347204930" expanded="true" signature="1150:1221" placeholder="SELECT * FRO..auth..." />
+            <marker date="1431364361033" expanded="true" signature="1215:1287" placeholder="SELECT * FRO..auth..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.769231">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="31" column="77" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/regestr.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6642984">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

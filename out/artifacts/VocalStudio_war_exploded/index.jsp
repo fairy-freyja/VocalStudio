@@ -23,6 +23,12 @@
 тут nav
   </nav>
   <section>
+      <form method="get" action="/login">
+          <p  style="text-align: center"><button>Залогиниться</button></p>
+      </form>
+      <form method="get" action="/login">
+        <p  style="text-align: center"><button>Зарегистрировться</button></p>
+      </form>
 тут section
   </section>
   <footer>
