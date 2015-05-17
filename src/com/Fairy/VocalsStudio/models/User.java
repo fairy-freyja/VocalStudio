@@ -5,23 +5,23 @@ package com.Fairy.VocalsStudio.models;
  */
 
 public class User {
-    private int id_user;
+    private int idUser;
     private String login;
     private String password;
     private String name;
     private String surname;
-    private String phone_number;
+    private String phoneNumber;
     private String email;
     private String sex;
     private String role;
 
-    public User(int id_user, String login, String password, String name, String surname, String phone_number, String email, String sex, String role) {
-        this.id_user = id_user;
+    public User(int idUser, String login, String password, String name, String surname, String phoneNumber, String email, String sex, String role) {
+        this.idUser = idUser;
         this.login = login;
         this.password = password;
         this.name = name;
         this.surname = surname;
-        this.phone_number = phone_number;
+        this.phoneNumber = phoneNumber;
         this.email = email;
         this.sex = sex;
         this.role = role;
@@ -33,8 +33,8 @@ public class User {
         this.email = email;
     }
 
-    public int getId_user() {
-        return id_user;
+    public int getIdUser() {
+        return idUser;
     }
 
     public String getLogin() {
@@ -53,8 +53,8 @@ public class User {
         return surname;
     }
 
-    public String getPhone_number() {
-        return phone_number;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
     public String getEmail() {
@@ -73,7 +73,7 @@ public class User {
 
 //        mysql> select * from users;
 //        +---------+-------+----------+----------+---------+--------------+-----------------+------+-------+
-//        | id_user | login | password | name     | surname | phone_number | email           | sex  | role  |
+//        | idUser | login | password | name     | surname | phoneNumber | email           | sex  | role  |
 //        +---------+-------+----------+----------+---------+--------------+-----------------+------+-------+
 //        |       1 | Admin | admin    | Antonina | NULL    |    123456789 | admin@email.com | w    | admin |
 //        +---------+-------+----------+----------+---------+--------------+-----------------+------+-------+
@@ -83,12 +83,12 @@ public class User {
 //        +--------------+-------------+------+-----+---------+----------------+
 //        | Field        | Type        | Null | Key | Default | Extra          |
 //        +--------------+-------------+------+-----+---------+----------------+
-//        | id_user      | int(11)     | NO   | PRI | NULL    | auto_increment |
+//        | idUser      | int(11)     | NO   | PRI | NULL    | auto_increment |
 //        | login        | varchar(30) | NO   |     | NULL    |                |
 //        | password     | varchar(20) | NO   |     | NULL    |                |
 //        | name         | varchar(20) | NO   |     | NULL    |                |
 //        | surname      | varchar(25) | YES  |     | NULL    |                |
-//        | phone_number | int(12)     | NO   |     | NULL    |                |
+//        | phoneNumber | int(12)     | NO   |     | NULL    |                |
 //        | email        | varchar(30) | NO   |     | NULL    |                |
 //        | sex          | varchar(1)  | YES  |     | NULL    |                |
 //        | role         | varchar(10) | YES  |     | NULL    |                |

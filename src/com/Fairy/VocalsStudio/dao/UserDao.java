@@ -9,5 +9,4 @@ import java.sql.SQLException;
  */
 public interface UserDao extends InterfaceDao<User> {
     public User findByLogin(String login) throws SQLException;
-    git checkout --
 }

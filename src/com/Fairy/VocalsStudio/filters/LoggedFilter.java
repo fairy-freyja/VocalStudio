@@ -1,6 +1,6 @@
 package com.Fairy.VocalsStudio.filters;
 
-import com.Fairy.VocalsStudio.models.UserBean;
+import com.Fairy.VocalsStudio.models.User;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -28,7 +28,7 @@ public class LoggedFilter implements Filter {
 
         HttpSession userSession = req.getSession(false);
         if(userSession != null){
-            UserBean user = (UserBean) userSession.getAttribute("user");
+            User user = (User) userSession.getAttribute("user");
             if(user != null){
                 req.getRequestDispatcher("/userHome").forward(req, resp);
             }

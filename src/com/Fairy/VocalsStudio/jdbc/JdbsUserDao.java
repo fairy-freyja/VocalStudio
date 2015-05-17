@@ -15,11 +15,9 @@ public class JdbsUserDao implements UserDao {
     @Override
     public User find(int id) {
         User user = null;
-        Connection con;
-        try {
-            con = DBConnectionFactory.getDBConnection();
-            ResultSet result = con.createStatement().executeQuery("SELECT * FROM users WHERE id_user = " + id + ";");
+        try (Connection con = DBConnectionFactory.getDBConnection();) {
 
+            ResultSet result = con.createStatement().executeQuery("SELECT * FROM users WHERE id_user = " + id + ";");
 
             if (result.next()) {
                 int id_userBD = result.getInt("id_user");
