@@ -6,42 +6,39 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="s" uri="/WEB-INF/custom.tld" %>
-<html>
-<link rel="stylesheet" href="resources/css/base.css">
 
- <title>Tonique</title>
-  <body>
+<head>
+    <link href="resources/css/base.css" rel="stylesheet" type="text/css"   />
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <title>Tonique</title>
+</head>
 
+<body class="${page}">
+    <div id="header">
+        <h1><a href="#">Tonique<span>Vocal school</span></a></h1>
+    </div>
 
-  <section>
-      <div id="header">
+    <div id = "menu">
+        <jsp:include page="/WEB-INF/${menu}.jsp"/>
+    </div>
+    <section>
+        <div >
+            <jsp:include page="/WEB-INF/${page}.jsp"/>
+        </div>
+    </section>
 
-          <h1><a href="#">Tonique<span>Vocal school</span></a></h1>
-
-          <%--<h2><text-align: right> телефон: 1234567890</text-align:></h2>--%>
-          <%--<h2><text-align: right>  адрес: город, дом, улица </text-align:></h2>--%>
-
-      </div>
-      <div id = "menu">
-              <ul class="navigation">
-                  <li><a href="/"<s:selected check="/"/>>Home</a></li>
-                  <li><a href="/login"<s:selected check="login.jsp"/>>Login</a></li>
-                  <li><a href="/registration"<s:selected check="registr.jsp"/>>Registration</a></li>
-                  <li><a href="/userHome" <s:selected check="userHome.jsp"/>>User Home</a></li>
-              </ul>
-          </div>
-      <div id = selected>
-          <jsp:include page="/WEB-INF/${page}"/>
-
-${page}
-
-      </div>
-      <footer>
-      </footer>
-  </section>
-
-
-  </body>
+<%--${not empty user} вернёт true если атрибут юзер не null --%>
+    <%--<footer>--%>
+        <%--<h4><text-align: right> телефон: (077)-777-77-77</text-align:></h4>--%>
+        <%--<h4><text-align: right> адрес: город, дом, улица </text-align:></h4>--%>
+    <%--</footer>--%>
+</body>
 </html>

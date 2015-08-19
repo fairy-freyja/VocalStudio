@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume xmlns="http://www.ololo.com">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.ololo.com com/Fairy/VocalsStudio/servlets/resume.xsd"
+        <title>
+            <name>Natalia</name>
+            <surname>Sergeevna</surname>
+            <phone_number>9870987</phone_number>
+            <email>ololo@emal.com</email>
+        </title>
+    <objective>Bla-bla-bla</objective>
+    <skils>ogogo</skils>
+
+</resume>

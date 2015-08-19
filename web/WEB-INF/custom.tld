@@ -11,13 +11,19 @@
 
     <!-- Invoke 'Generate' action to add tags or functions -->
     <tag>
-        <name>selected</name>
-        <tag-class>com.Fairy.VocalsStudio.logic.ButtonSelectedTag</tag-class>
-        <body-content>scriptless</body-content>
-        <attribute>
-            <name>check</name>
-            <required>yes</required>
-        </attribute>
-
+    <name>selected</name>
+    <tag-class>com.Fairy.VocalsStudio.logic.ButtonSelectedTag</tag-class>
+    <body-content>scriptless</body-content>
+    <attribute>
+        <name>check</name>
+        <required>yes</required>
+    </attribute>
     </tag>
+
+    <tag>
+        <name>menueIncluder</name>
+        <tag-class>com.Fairy.VocalsStudio.logic.ShowMenuTeg</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+
 </taglib>

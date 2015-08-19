@@ -7,34 +7,38 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<link rel="stylesheet" href="resources/css/base.css">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="s" uri="/WEB-INF/custom.tld" %>
 
- <title>Tonique</title>
-  <body>
-  <header>
-    <p>    </p>
-    <p>    </p>
-    <p>    </p>
-    <H1> телефон: 1234567890 </H1>
-    <H1>адрес: город, дом, улица </H1>
+<head>
+    <link href="resources/css/base.css" rel="stylesheet" type="text/css"   />
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <title>Tonique</title>
+</head>
 
-  </header>
-  <nav>
-тут nav
-  </nav>
-  <section>
-      <form method="get" action="/login">
-          <p  style="text-align: center"><button>Залогиниться</button></p>
-      </form>
-      <form method="get" action="/registration">
-        <p  style="text-align: center"><button>Зарегистрировться</button></p>
-      </form>
-тут section
-  </section>
-  <footer>
-это footer
-  </footer>
-pew-pew
+<body class="${page}">
+    <div id="header">
+        <h1><a href="#">Tonique<span>Vocal school</span></a></h1>
+    </div>
 
-  </body>
+    <div id = "menu">
+        <jsp:include page="/WEB-INF/${menu}.jsp"/>
+    </div>
+    <section>
+        <div >
+            <jsp:include page="/WEB-INF/${page}.jsp"/>
+        </div>
+    </section>
+
+<%--${not empty user} вернёт true если атрибут юзер не null --%>
+    <%--<footer>--%>
+        <%--<h4><text-align: right> телефон: (077)-777-77-77</text-align:></h4>--%>
+        <%--<h4><text-align: right> адрес: город, дом, улица </text-align:></h4>--%>
+    <%--</footer>--%>
+</body>
 </html>

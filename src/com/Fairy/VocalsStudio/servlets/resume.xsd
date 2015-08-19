@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.ololo.com"
+           xmlns="http://www.ololo.com" >
+    <xs:simpleType name="Word">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][a-z]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="personinfo">
+        <xs:sequence>
+            <xs:element name="name" type="Word"/>
+            <xs:element name="surname" type="Word"/>
+            <xs:element name="phone_number">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[+][3(80][/d]{2}[)]-[/d]{3}-[/d]{2}-[/d]{2}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="email" type="xs:string"/>
+
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="resume">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="personinfo"/>
+                <xs:element name="objective" type="xs:string"/>
+                <xs:element name="skils" type="xs:string"/>
+                <xs:element name="">
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

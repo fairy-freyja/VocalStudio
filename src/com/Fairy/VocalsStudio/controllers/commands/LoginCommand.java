@@ -1,52 +1,60 @@
 package com.Fairy.VocalsStudio.controllers.commands;
 
-import com.Fairy.VocalsStudio.dao.DaoFactory;
-import com.Fairy.VocalsStudio.dao.UserDao;
-import com.Fairy.VocalsStudio.models.User;
+import com.Fairy.VocalsStudio.services.LoginService;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.sql.SQLException;
+import java.io.IOException;
 
 /**
  * Created by Wyvern on 12.05.2015.
  */
 public class LoginCommand implements Command {
+    private LoginService ls = new LoginService();
+    private Logger log = Logger.getLogger(LoginCommand.class);
+
     @Override
     public String execute(HttpServletRequest req, HttpServletResponse resp) {
 
-        if(req.getMethod().toLowerCase().equals("get")){
+
+        if (req.getMethod().toLowerCase().equals("get")) {
+
+            if(req.getParameter("submit.logout") != null){
+                req.getSession().invalidate();
+                log.log(Level.INFO, "user logout, session have been invalidate");
+                req.getSession().setAttribute("menu", "simpleMenu");
+            }
             return "index.jsp";
         }
 
         resp.setContentType("text/html; charset=UTF-8");
 
-        System.out.println("get connection to DB");
         String loginParam = req.getParameter("login");
+        String passwordParam = req.getParameter("password");
 
-        UserDao ud = DaoFactory.getInstance().createUserDao();
-        User user = null;
-        try {
-            user = ud.findByLogin(loginParam);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        if (user != null) {
-            String passwordParam = req.getParameter("password");
-            System.out.println("req.getParameter(login) = " + loginParam);
-            if (user.getPassword().equals(passwordParam)) {
-                req.getSession().setAttribute("user", user);
-                return "/userHome";
-            } else {
-                System.out.println("in else");
-                req.setAttribute("Failed", "Неправильный пароль");
+        if (ls.checkLoginPass(loginParam, passwordParam)) {
+            req.getSession().setAttribute("user", ls.findUserByLogin(loginParam));
+            String role = ls.findUserByLogin(loginParam).getRole();
+            req.getSession().setAttribute("role", role);
+            try {
+                if(role.equals("user")) {
+                    resp.sendRedirect("/userHome");
+                } else {
+                    resp.sendRedirect("/");
+                }
+                String massage = "user \"" + loginParam + "\" have been logged";
+                log.log(Level.INFO, massage);
+            } catch (IOException e) {
+                e.printStackTrace();
             }
+            return null;
         } else {
-            req.setAttribute("Failed", "Нету такого пользователя, попробуйте снова.");
-
+            req.setAttribute("Failed", "wrong login or password");
+            log.log(Level.ERROR,"Failed wrong login or password");
         }
-//        req.getRequestDispatcher("/login").forward(req, resp);
-        return "/login";
+        log.log(Level.INFO, "ololo");
+        return "index.jsp";
     }
-
 }

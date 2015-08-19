@@ -1,25 +1,20 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<h5><%= request.getAttribute("Failed") != null ? request.getAttribute("Failed") : ""%></h5>
 
  <p><form method="post" action="/registration">
-     <p> Logine </p>
-     <p><input type="text" name="login" placeholder="Login" autofocus />
+     <p> <h6> Login</h6> <h5><input type="text" name="login" placeholder="Login" required autofocus />*</h5>
 
-     <p> Password </p>
-     <p><input type="password" name="password" placeholder="Password" />
+     <p> <h6>Password</h6> <h5><input type="password" name="password" required placeholder="Password" />*</h5>
 
-     <p>Email</p>
-     <p><input type="email" name="email" placeholder="Email" />
+     <p> <h6>Email</h6> <h5><input type="email" name="email" required placeholder="Email" />*</h5>
 
-     <p>Name</p>
-     <p><input type="text" name="name" placeholder="Name" />
+     <p> <h6>Name</h6> <h5><input type="text" name="name" required placeholder="Name" />*</h5>
 
-     <p>Surname</p>
-     <p><input type="text" name="surname" placeholder="Surname" />
+     <p> <h6>Surname</h6> <input type="text" name="surname" placeholder="Surname" />
 
-     <p>Phone number</p>
-     <p><input type="text" name="phone_number" placeholder="Phone number" />
+     <p> <h6>Phone number</h6> <h5><input type="text" name="phone_number" required placeholder="Phone number" /> *</h5>
 
-     <p>Sex</p>
-     <p><input type="text" name="sex" placeholder="Sex" />
+     <p> <h6>Sex</h6> <input type="text" name="sex" placeholder="Sex" />
 
      <p><input type="submit" name="commit" value="Register"></p>
  </form>
