@@ -15,7 +15,7 @@ public class MailSender {
     private final Properties properties;
     private final Session session;
     private final String senderMail = "fairy.freyja@gmail.com";
-    private final String password = "sugeno321";
+    private final String password = "";
     private String recipientMail;
 
     private MailSender() {
